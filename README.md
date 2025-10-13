@@ -2,7 +2,7 @@
 
 A futuristic, cyberpunk-inspired React frontend for interacting with YouTube videos through AI-powered question answering. Built with React, Tailwind CSS, Framer Motion, and a Python Flask backend.
 
-## 🚀 Features
+## Features
 
 - **Video Processing**: Input any YouTube video URL to extract and process its transcript
 - **AI-Powered Q&A**: Ask questions about video content and get intelligent, structured answers
@@ -104,7 +104,7 @@ ytbot-streamlit/
     └── ytBotBackend.py   # Core backend logic (untouched)
 ```
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 The frontend follows a cyberpunk/hacker aesthetic with:
 - **Dark Terminal Theme**: Black/charcoal backgrounds with neon green and cyan accents
@@ -124,12 +124,4 @@ To run in development mode:
 2. Start the frontend: `npm start`
 3. Open `http://localhost:3000` in your browser
 
-## Production Build
 
-To create a production build:
-
-```bash
-npm run build
-```
-
-The built files will be in the `build/` directory.
